@@ -1,0 +1,22 @@
+---------------
+PROGRAMACION 19/09/18:
+
+Se utiliza \n para un salto de línea 
+Se utiliza \t para tabulador
+
+1.4 Salida formateada:
+
+Utilizamos el comando printf ("Cadena nº1/Cadena nº2...",8,3)
+Los numeros que pongo al final pasan a sus respectivas cadenas 
+(En este caso el 8 va a la cadena nº1 y el 3 va a la cadena nº 2)
+
+%d=sin decimales, enteros (Por ejemplo si pongo %10d me deja 10 huecos)
+%f=numeros decimales (Por ejemplo si pongo %10.2 me deja 10 huecos para el entero y dos para la parte decimal)
+
+__________________________________________________________________________________
+EJEMPLO									          |
+System.out.printf("El número %d no tiene decimales.\n", 21);                      |
+System.out.printf("El número %f sale con decimales.\n", 21.0);                    |
+System.out.printf("El %.3f sale exactamente con 3 decimales.\n", 21.0);           |
+__________________________________________________________________________________
+
