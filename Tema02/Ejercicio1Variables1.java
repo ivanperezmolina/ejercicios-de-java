@@ -16,6 +16,6 @@ public class Ejercicio1Variables1 {
   System.out.println("Si sumo las variables x e y me sale: " + (x + y ));
 	System.out.println("Si resto las variables x e y me sale: " + (x - y ));
 	System.out.println("Si multiplico las variables x e y me sale: " + (x * y ));
-	System.out.println("Si divido las variables x e y me sale: " + (x / y ));
+	System.out.println("Si divido las variables x e y me sale: " + ((float)x / (float)y ));
   }
 }
