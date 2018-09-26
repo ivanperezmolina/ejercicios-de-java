@@ -2,7 +2,7 @@
 
 Ejercicios de Java de la asignatura Programación de 1ºDAM en los cuales se ve mi evolución en el lenguaje JAVA.
 
-#### Aquí tienes una lista de los temas que se estan tratando en clase. En cada enlace esta subida mi relción de ejercicios
+#### Aquí tienes una lista de los temas que se estan tratando en clase. En cada enlace esta subida mi relación de ejercicios
 
 
 
