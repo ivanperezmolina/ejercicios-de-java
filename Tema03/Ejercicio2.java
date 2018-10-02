@@ -19,11 +19,13 @@ public class Ejercicio2 {
     segundoNumero = Integer.parseInt( linea );*/
 
     int total;
-    total = (euros) * (166);
+    total = (int)(euros * 166,386);
 
     System.out.print("El numero de euros a transformar es: " + euros);
     System.out.println("y tengamos en cuenta que 166 pesetas es 1 €");
     System.out.print("El resultado de la transformación es:");
     System.out.print(total);   
+	//printf ("½.2f son ")
   } 
+
 }
