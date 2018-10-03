@@ -36,9 +36,6 @@ public class Ejercicio04 {
     
     
 
-   
-    //System.out.println("Usted ha dado " + horas + " horas");
-    //System.out.println("En esta empresa pagamos 12 euros la hora");
-    //System.out.println("Usted cobrara " + total + " €");   
+    
   } 
 }

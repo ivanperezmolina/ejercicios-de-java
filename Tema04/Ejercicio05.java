@@ -4,7 +4,7 @@
 * @author Iván Pérez Molina
 */
 
-public class Ejercicio051 {
+public class Ejercicio05 {
   public static void main(String[] args) {
 
     String linea;
