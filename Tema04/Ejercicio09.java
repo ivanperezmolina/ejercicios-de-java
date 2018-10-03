@@ -8,10 +8,11 @@ public class Ejercicio09 {
   public static void main(String[] args) {
 
     String linea;
-    System.out.print("Introduce el valor de a : ");
+    System.out.println("BINVENIDO AL PROGRAMA PARA CONSULTAR SU HOROSCOPO");
+    System.out.println("Introduce el día en el que naciste: ");
     linea = System.console().readLine();
-    double a;
-    a = Double.parseDouble( linea );
+    int dia;
+    dia = Integer.parseInt( linea );
     
     String lineados;
     System.out.print("Introduce el valor de b:");

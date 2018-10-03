@@ -7,6 +7,9 @@
 public class Ejercicio07 {
   public static void main(String[] args) {
     System.out.println("MEDIA DE LAS NOTAS DEL CURSO");
+        String salto = new string ("\n");
+            String salto = new string ("\n");
+           System.out.print("Por favor, introduce que sacaste en el primer examen"); 
     String linea;
     System.out.print("Por favor, introduce que sacaste en el primer examen");
     linea = System.console().readLine();
