@@ -9,7 +9,7 @@ public class Ejercicio01 {
     System.out.println("Conoce que asignatura tienes a 1º Hora");
     System.out.println("Por favor, introduzca el día de la semana");
     String respuesta = System.console().readLine();
-    //respuesta = respuesta.toUpperCase();
+    respuesta = respuesta.toUpperCase();
   
     if (respuesta.equals("LUNES")) {
       System.out.println("Tienes Entornos de Desarrollo con Pilar");
