@@ -9,7 +9,7 @@ public class Ejercicio13 {
 
     //Pedir los valores de los tres numeros
     System.out.println("BINVENIDO AL PROGRAMA PARA ORDENAR SUS TRES NUMEROS DE MENOR A MAYOR");
-    System.out.println("PORFAVOR, NO REPITAS LOS NUMEROS O TU PC EXPLOTARA");
+    System.out.println("PORFAVOR, NO REPITAS LOS NUMEROS");
     String linea;
     System.out.println("Introduce el primer numero: ");
     linea = System.console().readLine();
@@ -29,33 +29,33 @@ public class Ejercicio13 {
     c = Integer.parseInt( lineatres );
     
     //Vamos comparando los valores para hacer el orden
-      if ((a > b) && (a > c) && (b > c)){
+      if ((a >= b) && (a >= c) && (b >= c)){
         System.out.println("He ordenado los numeros y:  ");
         System.out.println("El primer valor es el: " + a );
         System.out.println("El segundo valor es el: " + b);
         System.out.println("El tercer valor es el: " + c );
       
-      } else { if ((b > a) && (b > c) && (a > c)){
+      } else { if ((b >= a) && (b >= c) && (a >= c)){
                System.out.println("He ordenado los numeros y:  ");
                System.out.println("El primer valor es el: " + b );
                System.out.println("El segundo valor es el: " + a);
                System.out.println("El tercer valor es el: " + c );
-             } else { if ((c > a) && (c > b) && (a > b)) {
+             } else { if ((c >= a) && (c >= b) && (a >= b)) {
                           System.out.println("He ordenado los numeros y:  ");
                           System.out.println("El primer valor es el: " + c );
                           System.out.println("El segundo valor es el: " + a);
                           System.out.println("El tercer valor es el: " + b );
-                      } else { if ((c > a) && (c > b) && (b > a)){
+                      } else { if ((c >= a) && (c >= b) && (b >= a)){
                                   System.out.println("He ordenado los numeros y:  ");
                                   System.out.println("El primer valor es el: " + c );
                                   System.out.println("El segundo valor es el: " + b);
                                   System.out.println("El tercer valor es el: " + a );
-                              } else { if ((a > c) && (a > b) && (c > b)) {
+                              } else { if ((a >= c) && (a >= b) && (c >= b)) {
                                         System.out.println("He ordenado los numeros y:  ");
                                         System.out.println("El primer valor es el: " + a );
                                         System.out.println("El segundo valor es el: " + c);
                                         System.out.println("El tercer valor es el: " + b );
-                                      } else { if ((b > a) && (b > a) && (c > a)) {
+                                      } else { if ((b >= a) && (b >= a) && (c >= a)) {
                                                 System.out.println("He ordenado los numeros y:  ");
                                                 System.out.println("El primer valor es el: " + b );
                                                 System.out.println("El segundo valor es el: " + c);
