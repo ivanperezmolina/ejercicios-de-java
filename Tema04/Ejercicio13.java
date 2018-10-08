@@ -9,7 +9,7 @@ public class Ejercicio13 {
 
     //Pedir los valores de los tres numeros
     System.out.println("BINVENIDO AL PROGRAMA PARA ORDENAR SUS TRES NUMEROS DE MENOR A MAYOR");
-    System.out.println("PORFAVOR, NO REPITAS LOS NUMEROS");
+    //System.out.println("PORFAVOR, NO REPITAS LOS NUMEROS");
     String linea;
     System.out.println("Introduce el primer numero: ");
     linea = System.console().readLine();
