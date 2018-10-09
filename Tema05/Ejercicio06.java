@@ -14,7 +14,10 @@ public class Ejercicio06{
     do {
       System.out.println(i);
       i=i-20;
-    } while (i < 160);
+    } while (i < 160);{
+      System.out.println(i);
+      }
+    
     
   }
 }
