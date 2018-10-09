@@ -21,7 +21,7 @@ public class Ejercicio17 {
     System.out.println("La ultima cifra de su numero es: ");
     System.out.println(ultima);
          
-    
+    //%10 de cualquier numero da la ultima cifra
     
   }
 }
