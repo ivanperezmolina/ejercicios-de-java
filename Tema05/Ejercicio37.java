@@ -12,7 +12,7 @@ public class Ejercicio37 {
     System.out.print("Introduce un número: ");
     linea = System.console().readLine();
     int numero;
-    numero = Double.parseDouble( linea );
+    numero = Integer.parseInt( linea );
     
     switch (numero){
           case 0:
@@ -63,5 +63,3 @@ public class Ejercicio37 {
     
      
   } 
-}
-}
