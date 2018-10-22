@@ -22,7 +22,7 @@ public class Ejercicio28 {
 		System.out.println("---------------------------------------");
     
     //Calculo el factorial
-    int factorial = 1;
+    int factorial = 0;
     
     while (numero!=2){
       factorial = numero* (numero-1);
