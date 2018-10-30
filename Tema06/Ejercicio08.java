@@ -1,12 +1,12 @@
 /**
- * Tema 6 Ejercicio 6
+ * Tema 6 Ejercicio 8
  *
  * @author Iván Pérez Molina
  */
 
 public class Ejercicio06 {
   public static void main(String[] args) {
-    System.out.println("EJERCICIO 6 ");
+    System.out.println("EJERCICIO 8 ");
     //Pensar numero     
     int azar = (int)(Math.random()*100) ;
     ///////////////
