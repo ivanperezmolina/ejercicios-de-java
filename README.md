@@ -1,16 +1,17 @@
-# Ejercicios de Java de Iván Pérez
+# Ejercicios de Java de Iván Pérez 😃😄
 
 Ejercicios de Java de la asignatura Programación de 1ºDAM en los cuales se ve mi evolución en el lenguaje JAVA.
 
-#### Aquí tienes una lista de los temas que se estan tratando en clase. En cada enlace esta subida mi relación de ejercicios
+#### Aquí tienes una lista de los temas que se estan tratando en clase. En cada enlace esta subida mi relación de ejercicios ✮
 
 
 
-* [Tema 1](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema01)
-* [Tema 2](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema02)
-* [Tema 3](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema03)
-* [Tema 4](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema04)
-* [Tema 5](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema05)
+* [Tema ❶](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema01)
+* [Tema ❷](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema02)
+* [Tema ❸](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema03)
+* [Tema ❹](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema04)
+* [Tema ❺](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema05)
+* [Tema ❻](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema06)
 
 #### En este enlace podrás ver el libro con el que estamos aprendiendo APRENDE JAVA CON EJERCICIOS de Luis José Sánchez
 
