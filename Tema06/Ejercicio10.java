@@ -10,7 +10,13 @@ public class Ejercicio10 {
     
 
 		//Genero caracter
-		int generarcaracter = (int)(Math.random()*6) ;
+
+		/////////////////
+		
+
+
+	    for (int i = 1; i <=10; i++){
+					int generarcaracter = (int)(Math.random()*6) ;
 		
 		String caracter = "";
 		
@@ -41,13 +47,9 @@ public class Ejercicio10 {
 		  
 		  default:
 		}
-		/////////////////
-		
-		//Genero longitud
+			
+			
 		int generarlongitud = (int)(Math.random()*40)+1 ;
-		/////////////////
-
-	    for (int i = 1; i <=10; i++){
 			for (int j = 0; j<=generarlongitud; j++){
 				System.out.print(caracter);
 				}

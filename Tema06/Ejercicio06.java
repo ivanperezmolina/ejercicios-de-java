@@ -20,7 +20,7 @@ public class Ejercicio06 {
 		numero= Integer.parseInt( linea );
 		////////////////
 		
-		
+		//Para no hacer uso de un break habria que utilizar un do while por ejemplo
 		
 		if(numero==azar){
 			System.out.println("Enhorabuena, has acertado");
@@ -35,6 +35,12 @@ public class Ejercicio06 {
 					}					
 			}	
 	} 
+	//Decir el numero secreto
+	if (numero != azar){
+		System.out.println("El numero que estaba pensando era: "+azar);
+		}
+	
+	/////////////////////////
   }
 }
 
