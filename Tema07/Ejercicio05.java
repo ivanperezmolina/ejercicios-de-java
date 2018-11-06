@@ -1,15 +1,13 @@
 /**
- * Tema 7 --> Ejercicio 3
+ * Tema 7 --> Ejercicio 5
  * 
  * @author Luis José Sánchez
  */
 
-public class Ejercicio03 {
+public class Ejercicio05 {
   public static void main(String[] args) {
 	  
-	//Creo los tres arrays
-	
-	
+	//Creo el array
 	
 	int[] miarray = new int[10];
 	
@@ -22,10 +20,34 @@ public class Ejercicio03 {
 	}
 	System.out.println("-----------------------");
 	
-	for(int j = 9; j>=0;j--){
+	for(int j = 0; j<=9;j++){
 		System.out.println("En el hueco "+j+" tengo el numero "+miarray[j]);
 	}
     /////////////////
+    
+    //Busco el máximo y el minimo
+    int max = 0;
+    int min = 0;
+    
+    for()
+    
+ 
+
+    
+    /////////////////
+    
+    
+    		for(i = 0; i < myList.length; i++)
+		{
+			if(min>myList[i])
+			{
+				min=myList[i];
+			}
+			if(max<myList[i])
+			{
+				max=myList[i];
+			}
+		}
 
   }
 }
