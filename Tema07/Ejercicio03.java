@@ -9,23 +9,16 @@ public class Ejercicio03 {
 	  
 	//Creo los tres arrays
 	
+	int[] miArray = new int[11];
 	
-	
-	int[] miarray = new int[10];
-	
-	for(int i = 0; i<=9;i++){
+	for(int i = 0; i<=10;i++){
 		String linea;
-		System.out.println("Introduce el numero ");
+    int auxiliar = i+1;
+		System.out.println("Introduce la temperatura del "+auxiliar+"º mes: ");
 		linea = System.console().readLine();		
-		miarray[i]= Integer.parseInt( linea ); 		
+		miArray[i]= Integer.parseInt( linea ); 		
 		
 	}
-	System.out.println("-----------------------");
-	
-	for(int j = 9; j>=0;j--){
-		System.out.println("En el hueco "+j+" tengo el numero "+miarray[j]);
-	}
-    /////////////////
 
   }
 }
