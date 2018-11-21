@@ -2,7 +2,7 @@ package arraybidimensional;
 
 /**
  *
- * @author ivanp
+ * @author Iván Pérez Molina
  */
 public class Ejercicio01 {
 
@@ -26,8 +26,7 @@ public class Ejercicio01 {
     System.out.print("Array num ");
     for (int i = 0; i <= 5; i++) {
       System.out.print("|");
-      System.out.printf("Columna"+"%5d", i);
-      
+      System.out.printf("Columna" + "%5d", i);
     }
 
     System.out.println("  ");
@@ -36,7 +35,7 @@ public class Ejercicio01 {
     int columna;
 
     for (fila = 0; fila <= 2; fila++) {
-      System.out.printf("Fila"+"%5d",fila);
+      System.out.printf("Fila" + "%5d", fila);
       System.out.print(" |");
       for (columna = 0; columna <= 5; columna++) {
         System.out.printf("%11d ", num[fila][columna]);
@@ -44,7 +43,5 @@ public class Ejercicio01 {
       }
       System.out.println("  ");
     }
-
   }
-
 }

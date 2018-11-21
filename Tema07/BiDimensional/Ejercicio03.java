@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author ivanp
+ * @author Iván Pérez Molina
  */
 public class Ejercicio03 {
 
   public static void main(String[] args) {
+    
     Scanner s = new Scanner(System.in);
     //Defino un array de 4 filas por 5 columnas
     int[][] miArray = new int[4][5];
@@ -19,7 +20,7 @@ public class Ejercicio03 {
     int sumafila;
     int sumacolumna;
 
-    /////////////////
+    //Genero numeros aleatorios
     
     for (fila = 0; fila < 4; fila++) {
       for (columna = 0; columna < 5; columna++) {
@@ -32,7 +33,6 @@ public class Ejercicio03 {
     for (int i = 0; i < 5; i++) {
       System.out.print("|");
       System.out.printf("Columna" + "%5d", i);
-
     }
 
     System.out.println("  ");
@@ -40,14 +40,12 @@ public class Ejercicio03 {
     for (fila = 0; fila < 4; fila++) {
       System.out.printf("Fila" + "%5d", fila);
       System.out.print(" |");
-
       sumafila = 0;
       for (columna = 0; columna < 5; columna++) {
         System.out.printf("%11d ", miArray[fila][columna]);
         System.out.print("|");
         sumafila = sumafila + miArray[fila][columna];
       }
-
       System.out.print("SUMA= " + sumafila);
       System.out.println("  ");
     }
@@ -65,14 +63,10 @@ public class Ejercicio03 {
       for (fila = 0; fila < 4; fila++) {
         sumaColumna += miArray[fila][columna];
       }
-
       sumaTotal += sumaColumna;
-
       System.out.printf("|%12d", sumaColumna);
     }
     System.out.printf("|TOTAL=" + "%3d", sumaTotal);
     System.out.println("");
-
   }
-
 }
