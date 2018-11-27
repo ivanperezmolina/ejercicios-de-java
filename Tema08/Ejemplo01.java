@@ -141,23 +141,12 @@ public class Ejemplo01 {
     System.out.println("Introduzca el numero :");
     int numeroparaquitarpordetras = Integer.parseInt(s.nextLine());
 
-
     System.out.println("Si cogemos el numero " + numeroparaquitarpordetras + " y le quitamos el ultimo numero nos queda " + quitaPorDetras(numeroparaquitarpordetras));
 
     System.out.println("");
     System.out.println("-----------------");
   }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   ////FUNCIONES////
   /**
    * Ejemplo Devuelve un numero entero entre 1 y 6 que se corresponde con la
@@ -358,28 +347,23 @@ public class Ejemplo01 {
     return cadenayajuntospordelante;
 
   }
-  
-  
+
   //////////////////////////////////////////////////////////////////////////////
   /**
-   * Ejercicio 9-->quitaPorDetras: Le quita a un número n dígitos por 
-   * detrás (por la derecha).
+   * Ejercicio 9-->quitaPorDetras: Le quita a un número n dígitos por detrás
+   * (por la derecha).
    *
    *
    * @param x
    * @return Un numero con un digito menos por detras
    */
   public static int quitaPorDetras(int x) {
-    int comodin=0;
-    
-    comodin = x/10;
-    
+    int comodin = 0;
 
+    comodin = x / 10;
 
     return comodin;
 
   }
-  
-  
-  
+
 }
