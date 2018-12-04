@@ -14,43 +14,23 @@ public class BinarioADecimal {
 
     System.out.println("CONVERTIDOR DE BINARIO A DECIMAL");
     System.out.print("Introduzca el numero en binario:");
-    int numeroenbinario = Integer.parseInt(s.nextLine());
+    int numeroEnBinario = Integer.parseInt(s.nextLine());
 
     //Saco cuantos digitos tiene el numero y le resto 1
-    int digitos = (FuncionesBiDe.digitos(numeroenbinario) - 1);
-
-    int numerodelarray = digitos + 1;
-
-    int conmas = numerodelarray + 1;
+    int digitos = (FuncionesBiDe.digitos(numeroEnBinario));
 
     //Creo un array; meto los numeros hay
-    int[] miArray = new int[conmas];
+    int[] arrayBinario = new int[digitos];
 
-    int gironumero = 0;
-    gironumero = FuncionesBiDe.voltea(numeroenbinario);
-
-    int ultimacifra = 0;
-
-    int fin = 0;
-
-    for (int k = 0; k <= numerodelarray; k++) {
-      ultimacifra = gironumero % 10;
-      miArray[k] = ultimacifra;
-    }
-
-    //Tengo que elevar el dos a cada uno de los numeros que me ha dado
-    int elevados = 0;
-    int paso2 = 0;
+    //Array con los digitos del numero binario invertido
+    arrayBinario = FuncionesBiDe.numberToArray(FuncionesBiDe.voltea(numeroEnBinario));
+    
     int suma = 0;
-    for (int i = 0; i <= digitos; i++) {
-      int x = 2;
-      elevados = FuncionesBiDe.potencia(i, x);
-      paso2 = elevados * miArray[i];
-      suma = suma + paso2;
-
+    for (int i=0; i< arrayBinario.length;i++) {
+      suma+=arrayBinario[i]*Math.pow(2,i);
     }
 
-//Muestro el numero en decima
+//Muestro el numero en decimal
     System.out.println("Su numero en decimal es: " + suma);
 
   }

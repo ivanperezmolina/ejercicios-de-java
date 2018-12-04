@@ -10,7 +10,8 @@ package funciones.funcionesnumericas;
  * @author ivanp
  */
 public class FuncionesBiDe {
-    //////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
   /**
    * digitos: Cuenta el número de dígitos de un número entero.
    *
@@ -19,14 +20,17 @@ public class FuncionesBiDe {
    * @return El numero de digitos que tiene el número
    */
   public static int digitos(int x) {
-    int cuentadigitos = 0;
-    cuentadigitos = Integer.toString(x).length();
+    return digitos((long) x);
+  }
+
+  public static int digitos(long x) {
+
+    int cuentadigitos = Long.toString(x).length();
 
     return cuentadigitos;
   }
-  
-  
-    //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
   /**
    * potencia: Dada una base y un exponente devuelve la potencia.
    *
@@ -41,8 +45,8 @@ public class FuncionesBiDe {
 
     return calculapotencia;
   }
-  
-    //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
   /**
    * Ejercicio 06-->Voltea Invierte un numero (le da la vuelta). Por ejemplo:
    * 3456 quedaria 6543
@@ -61,6 +65,17 @@ public class FuncionesBiDe {
 
     return volteado;
   }
-  
+
   /////////////////////////////////////////////////////////////////////////////
+  public static int[] numberToArray(long n) {
+    int longitud = FuncionesBiDe.digitos(n);
+    int[] digits = new int[longitud];
+
+    for (int i = longitud - 1; i >= 0; i--) {
+      digits[i] = (int)(n % 10);
+      n=n/10;
+    }
+
+    return digits;
+  }
 }
