@@ -14,6 +14,7 @@ Ejercicios de Java de la asignatura Programación de 1ºDAM en los cuales se ve 
 * [Tema ❻](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema06)
 * [Tema ❼](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema07)
 * [Tema ❽](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Tema08)
+* [Practicando para el examen ♔ ♕ ⌨]()
 
 #### En este enlace podrás ver el libro con el que estamos aprendiendo APRENDE JAVA CON EJERCICIOS de Luis José Sánchez
 
