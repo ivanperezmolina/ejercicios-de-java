@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JUEGO DEL TRILE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <h1 class="text-center">Juego del Trile</h1>
+        <h5>Selecciona un cubitele para levantarlo y ver si esta la bolita</h5>
+        <br>
+        <img src="img/cubilete.png" style="padding:20px">
+        <img src="img/cubilete.png" style="padding:20px">
+        <img src="img/cubilete.png" style="padding:20px">
+        <br>
+        <p>Selecciona un cubilete</p>
+        <br>
+        <form action="resultadoCubilete.jsp" method="GET">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="cubilete"  value="option1">
+                <label class="form-check-label" for="exampleRadios2">
+                    1º cubilete
+                </label>
+                <br>
+                <input class="form-check-input" type="radio" name="cubilete"  value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    2º cubilete
+                </label>
+                <br>
+                <input class="form-check-input" type="radio" name="cubilete"  value="option3">
+                <label class="form-check-label" for="exampleRadios2">
+                    3º cubilete
+                </label>
+                <br>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Probar suerte</button>
+        </form>
+    </body>
+</html>
