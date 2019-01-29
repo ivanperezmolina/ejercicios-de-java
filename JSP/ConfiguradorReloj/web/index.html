@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Página oficial Rolex</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="text-center">Página oficial de Rolex</h1>
+        <h4>Navegue por nuestra página para saber cual es el mejor diseño de reloj diseñado para usted</h4>
+        <br>
+
+        <!--Formulario-->
+        <form action="relojListo.jsp">
+            Selecciona el color de la esfera de su reloj:<br>
+            <select class="form-control" name="color">
+                <option value="azul"style="color:blue">Azul</option>
+                <option value="negro" style="color:black">Negro</option>
+                <option value="verde" style="color:green">Verde</option>
+            </select>
+
+            <br><br>
+            Selecciones el material de su correa: 
+            <select class="form-control" name="correa">
+                <option value="acero" style="color:#231a24">Acero</option>
+                <option value="oro" style="color:#ffbf00">Oro</option>
+            </select>
+            <br><br>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block" >Ver como queda el reloj</button>
+            
+        </form>
+    </body>
+</html>
