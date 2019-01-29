@@ -17,6 +17,8 @@ Ejercicios de Java de la asignatura Programación de 1ºDAM en los cuales se ve 
 * [Practicando para el examen 1º Trimestre ♔ ♕ ⌨](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Practicando%20para%20Examen)
 * [Ejercicios de POO. Parte ❶](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Ejercicios%20de%20POO)
 * [Ejercicios de POO. Parte "Array de Objetos"](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Arrays%20de%20objetos)
+* [Ejercicios de Colecciones y Diccionarios](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/Colecciones%20y%20Diccionarios)
+* [JSP ⌨](https://github.com/ivanperezmolina/ejercicios-de-java/tree/master/JSP)
 
 Si se observa algún error; puedes comunicarmelo mediante el correo ivan.perez.8500@gmail.com
 
