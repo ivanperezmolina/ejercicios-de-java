@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+Realiza un conversor de euros a pesetas.
+-->
+<html>
+    <head>
+        <title>Ejercicio 05</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilo.css"
+    </head>
+    <body>
+
+        <div class="container-fluid" >
+            <h1 class="text-center"> Conversor de Euros a Pesetas </h1>
+
+            <form action="eurosAPesetas.jsp" method="GET">
+                <div class="form-group">
+                    <label for="euros">Euros:</label>
+                    <input type="number" min="0" step="1" class="form-control" name="euros" class="form-control" id="euros" placeholder="€">
+                    <small id="emailHelp" class="form-text text-muted">Introduzca la cantidad de euros a transformar</small>
+
+                    <br><br>
+
+                </div>
+
+
+                <!-- <button type="submit" class="btn btn-primary" >Calcula la media</button>-->
+                <button type="submit" class="btn btn-primary btn-lg btn-block">CALCULAR</button>
+            </form>
+        </div>
+    </body>
+</html>

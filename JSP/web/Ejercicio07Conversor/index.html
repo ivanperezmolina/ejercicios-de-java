@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+    Combina las dos aplicaciones anteriores en una sola de tal forma que en la
+    página principal se pueda elegir pasar de euros a pesetas o de pesetas a euros.
+    Adorna la página con alguna foto o dibujo.
+-->
+<html>
+    <head>
+        <title>Conversor de monedas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="text-center"> Conversor de monedas</h1>
+
+        <br><br>
+
+        <form action="conversor.jsp" method="GET">
+            <div class="form-group">
+                <label for="cantidad">Cantidad</label>
+                <input type="number" min="0" step="1" class="form-control" name="cantidad" class="form-control" id="cantidad" placeholder="Ptas o €">
+                <small id="emailHelp" class="form-text text-muted">Introduzca la cantidad a transformar</small>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="euros" value="option1">
+                <label class="form-check-label" for="exampleRadios1">
+                    Pesetas a Euros
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="pesetas" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    Euros a Pesetas
+                </label>
+            </div>
+
+            <br><br>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">CALCULAR</button>
+        </form>
+
+    </body>
+</html>
