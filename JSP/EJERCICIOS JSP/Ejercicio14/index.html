@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Escribe un programa que muestre los n primeros términos de la serie de
+Fibonacci. El primer término de la serie de Fibonacci es 0, el segundo es 1
+y el resto se calcula sumando los dos anteriores, por lo que tendríamos que
+los términos son 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144… El número n se
+debe introducir por teclado.
+-->
+<html>
+    <head>
+        <title>Ejercicio15</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <h1 class="text-center">Serie de Fibonacci</h1>
+        <form action="fibonacci.jsp" method="GET">
+
+            <div class="form-group">
+                <label for="numero">¿Cuantos términos de la serie quiere mostrar?:</label>
+                <input type="number" step="1" min="1" class="form-control" name="serie" class="form-control" id="serie" placeholder="Terminos de Fibonacci">
+                <small id="emailHelp" class="form-text text-muted">Introduzca cuantos números quieres que tenga tu serie de Fibonacci (Ej:5)</small>
+            </div>
+
+            <br><br>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">GENERAR</button>
+        </form>
+    </body>
+</html>

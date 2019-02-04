@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Realiza una aplicación que pida un número y que luego muestre la tabla de
+multiplicar de ese número. El resultado se debe mostrar en una tabla (<table>
+en HTML).
+-->
+<html>
+    <head>
+        <title>Ejercicio 08</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="text-center">Tablas de multiplicar</h1>
+        
+        <br><br>
+        
+                <form action="tablas.jsp" method="GET">
+            <div class="form-group">
+                <label for="numero">Número:</label>
+                <input type="number" step="1" class="form-control" name="numero" class="form-control" id="numero" placeholder="Numero a multiplicar">
+                <small id="emailHelp" class="form-text text-muted">Introduzca un numero para obtener su tabla de multiplicar</small>
+            </div>
+
+            <br><br>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">CALCULAR</button>
+        </form>
+
+    </body>
+</html>

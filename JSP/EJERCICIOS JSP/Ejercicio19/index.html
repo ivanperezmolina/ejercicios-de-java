@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+Crea el juego “Apuesta y gana”. El usuario debe introducir inicialmente una
+cantidad de dinero. A continuación aparecerá por pantalla una imagen de
+forma aleatoria. Si sale una calavera, el usuario pierde todo su dinero y termina
+el juego. Si sale medio limón, el usuario pierde la mitad del dinero y puede
+seguir jugando con esa cantidad o puede dejar de jugar. Si sale el gato chino
+de la suerte, el usuario multiplica por dos su dinero y puede seguir jugando
+con esa cantidad o puede dejar de jugar.
+-->
+<html>
+    <head>
+        <title>APUESTA Y GANA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <h1 class="text-center">APUESTA Y GANA</h1>
+        <form action="rifa.jsp" method="GET">
+
+            <div class="form-group">
+                <label for="numero">¿Cuanto dinero quieres apostar?</label>
+                <input type="number"  min="1" class="form-control" name="dinero" class="form-control" id="dinero" placeholder="€">
+                <small id="emailHelp" class="form-text text-muted">Dinero que quiere apostar en nuestra página</small>
+            </div>
+
+            <br><br>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">GENERAR</button>
+        </form>
+    </body>
+</html>

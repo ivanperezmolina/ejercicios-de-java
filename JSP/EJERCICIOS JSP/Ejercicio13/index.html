@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ejercicio13</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <h1 class="text-center">TEST DE INFIDELIDAD</h1>
+        <h5>Bienvenido al test de infidelidad. Descubre si tu pareja te será infiel!!</h5>
+        <form action="infiel.jsp" method="GET">
+            <!--1º PREGUNTA-->
+
+            <div class="alert alert-primary" role="alert">
+                <div class="form-check">
+                    <p>1º pregunta: ¿Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente.?</p>
+                    <input class="form-check-input" type="radio" name="pregunta1" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta1" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+
+
+
+            <!--2º PREGUNTA-->
+
+            <div class="alert alert-warning" role="alert">
+                <div class="form-check">
+                    <p>2º pregunta: ¿Ha aumentado sus gastos de vestuario?</p>
+                    <input class="form-check-input" type="radio" name="pregunta2" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta2" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+
+            <!--3º PREGUNTA-->
+
+            <div class="alert alert-secondary" role="alert">
+                <div class="form-check">
+                    <p>3º pregunta: ¿Ha perdido el interés que mostraba anteriormente por ti?</p>
+                    <input class="form-check-input" type="radio" name="pregunta3" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta3" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+
+                <hr>
+            </div>
+
+            <!--4º PREGUNTA-->
+
+            <div class="alert alert-success" role="alert">
+                <div class="form-check">
+                    <p>4º pregunta: ¿Ahora se afeita y se asea con más frecuencia (si es hombre) o ahora se arregla el pelo y se asea con más frecuencia (si es mujer)?</p>
+                    <input class="form-check-input" type="radio" name="pregunta4" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta4" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+            <!--5º PREGUNTA-->
+
+            <div class="alert alert-danger" role="alert">
+                <div class="form-check">
+                    <p>5º pregunta: ¿Te deja que mires la agenda de su teléfono móvil?</p>
+                    <input class="form-check-input" type="radio" name="pregunta5" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta5" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+
+                <hr>
+            </div>
+
+            <!--6º PREGUNTA-->
+
+            <div class="alert alert-info" role="alert">
+                <div class="form-check">
+                    <p>6º pregunta: ¿A veces tiene llamadas que dice no querer contestar cuando estás tú delante?</p>
+                    <input class="form-check-input" type="radio" name="pregunta6" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta6" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+
+            <!--7º PREGUNTA-->
+
+            <div class="alert alert-primary" role="alert">
+                <div class="form-check">
+                    <p>7º pregunta: ¿Últimamente se preocupa más en cuidar la línea y/o estar bronceado/a"? </p>
+                    <input class="form-check-input" type="radio" name="pregunta7" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta7" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+
+                <hr>
+            </div>
+
+            <!--8º PREGUNTA-->
+
+            <div class="alert alert-secondary" role="alert">
+                <div class="form-check">
+                    <p>8º pregunta: ¿Muchos días viene tarde después de trabajar porque dice tener mucho más trabajo? </p>
+                    <input class="form-check-input" type="radio" name="pregunta8" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta8" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+
+                <hr>
+            </div>
+
+            <!--9º PREGUNTA-->
+
+            <div class="alert alert-success" role="alert">
+                <p>9º pregunta: ¿Has notado que últimamente se perfuma más? </p>
+                <div class="form-check ">
+
+                    <input class="form-check-input" type="radio" name="pregunta9" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+
+                    </label>            
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pregunta9" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+
+                <hr>
+            </div>
+
+
+            <!--10º PREGUNTA-->
+
+            <div class="alert alert-warning" role="alert">
+                <div class="form-check">
+                    <p>10º pregunta: ¿Se confunde y te dice que ha estado en sitios donde no ha ido contigo? </p>
+                    <input class="form-check-input" type="radio" name="pregunta10" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sí
+
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta10" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        No
+                    </label>
+                </div>
+                
+                <hr>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">CORREGIR</button>
+        </form>
+    </body>
+</html>

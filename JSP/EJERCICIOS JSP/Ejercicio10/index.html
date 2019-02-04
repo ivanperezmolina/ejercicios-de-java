@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!--
+Realiza un cuestionario con 10 preguntas tipo test sobre las asignaturas
+que se imparten en el curso. Cada pregunta acertada sumará un punto. El
+programa mostrará al final la calificación obtenida. Pásale el cuestionario a tus
+compañeros y pídeles que lo hagan para ver qué tal andan de conocimientos
+en las diferentes asignaturas del curso. Utiliza radio buttons en las preguntas
+del cuestionario.
+-->
+<html>
+    <head>
+        <title>Ejercicio 10</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <h1 class="text-center">CUESTIONARIO 1ºDAM</h1>
+        <form action="respuesta.jsp" method="GET">
+            <!--1º PREGUNTA-->
+
+            <div class="alert alert-primary" role="alert">
+                <div class="form-check">
+                    <p>1º pregunta: ¿Qué significa JSP?</p>
+                    <input class="form-check-input" type="radio" name="pregunta1" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        JavaServer Pages
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta1" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        JavaServices Pages
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta1" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Juan Sabe Portugues
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta1" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        JavaServer Post
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+
+
+
+            <!--2º PREGUNTA-->
+
+            <div class="alert alert-warning" role="alert">
+                <div class="form-check">
+                    <p>2º pregunta: Creada la tabla CLIENTE, ¿Que forma es la más correcta de establecer el DNI?</p>
+                    <input class="form-check-input" type="radio" name="pregunta2" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        dni int(9) identity unique CHECK (dni = '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][A-Z]'),
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta2" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        dni varchar(9) not null unique CHECK (dni like '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][A-Z]'),
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta2" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        dni char(9) not null unique CHECK (dni like '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][A-Z]')
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta2" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        dni char(10) null 
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+
+            <!--3º PREGUNTA-->
+
+            <div class="alert alert-secondary" role="alert">
+                <div class="form-check">
+                    <p>3º pregunta: Distinguimos 3 capacidades para contratar; ¿cuales son?</p>
+                    <input class="form-check-input" type="radio" name="pregunta3" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Capacidad absoluta, Capacidad relativa y Capacidad laboral
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta3" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Capacidad absoluta, Capacidad limitada e Incapacidad laboral
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta3" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Capacidad absoluta, Capacidad del mundo e Incapacidad de los huesos del pie
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta3" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Capacidad de mayores de 18, Capacidad de menores de 18 e Incapacidad de menores de 16
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+            <!--4º PREGUNTA-->
+
+            <div class="alert alert-success" role="alert">
+                <div class="form-check">
+                    <p>4º pregunta: ¿Que refleja un diagrama de casos de uso?</p>
+                    <input class="form-check-input" type="radio" name="pregunta4" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Reflejan como un caso de asesinato ha sido realizado; tomando de referencia el uso del cuchillo.
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta4" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Reflejan la interacción de los usuarios-tipo con el administrador de la base de datos.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta4" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Reflejan el rechazo y la interacción de los usuarios-tipo con el sistema.
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta4" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Reflejan la interacción de los usuarios-tipo con el sistema.
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+            <!--5º PREGUNTA-->
+
+            <div class="alert alert-danger" role="alert">
+                <div class="form-check">
+                    <p>5º pregunta: ¿Para que sirve un DTD?</p>
+                    <input class="form-check-input" type="radio" name="pregunta5" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sirve para definir la estructura de un documento con extensión .exe, permitiendo su validación.
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta5" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Sirve para definir la vida de un documento SGML o XML, permitiendo su validación.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta5" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Sirve para definir la estructura de un documento SGML o XML, permitiendo su validación.
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta5" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Sirve para definir la estructura de un documento SGML o XML, sin permitir su validación.
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+            <!--6º PREGUNTA-->
+
+            <div class="alert alert-info" role="alert">
+                <div class="form-check">
+                    <p>6º pregunta: Una facil ¿Como se llama el libro creado por Luis José Sánchez González para aprender el lenguaje JAVA?</p>
+                    <input class="form-check-input" type="radio" name="pregunta6" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Aprende Java con Ejercicios
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta6" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Aprende Java sin Ejercicios
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta6" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Aprende Java con Luis
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta6" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Aprende Angular con Ejercicios 
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+
+            <!--7º PREGUNTA-->
+
+            <div class="alert alert-primary" role="alert">
+                <div class="form-check">
+                    <p>7º pregunta: ¿Qué componentes físicos (partes) forman un disco duro? </p>
+                    <input class="form-check-input" type="radio" name="pregunta7" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Platos, Eje, Cabezal, Actuador, brazo y eje 
+
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta7" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Platos, Vasos, Cubiertos, Servilletas, Pan y coca-cola 
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta7" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Platos, Eje, Cabezal, Actuador, brazo y pie 
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta7" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Platos, Eje, Cabezal, Cabezon, brazo y eje 
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+            <!--8º PREGUNTA-->
+
+            <div class="alert alert-secondary" role="alert">
+                <div class="form-check">
+                    <p>8º pregunta: ¿Qué hace la siguiente orden SQL? --> ALTER TABLE CIUDAD ADD NumHabCiu int not null </p>
+                    <input class="form-check-input" type="radio" name="pregunta8" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Modifica la tabla Ciudad y le borro la columna llamada NumHabCiu que es de tipo entero y no acepta nulos
+
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta8" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Modifica la tabla Ciudad y le añade una nueva columna llamada NumHabCiu que es de tipo entero y no acepta nulos
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta8" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Borro la tabla Ciudad, pero guardo la columna llamada NumHabCiu que es de tipo entero y no acepta nulos 
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta8" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Modifica la tabla Ciudad y le añade una nueva columna llamada NumHabCiu que es de tipo entero y acepta nulos 
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+            <!--9º PREGUNTA-->
+
+            <div class="alert alert-success" role="alert">
+                <p>9º pregunta: ¿Qué fondo de escritorio traia Windows XP por defecto? </p>
+                <div class="form-check form-check-inline">
+                    
+                    <input class="form-check-input" type="radio" name="pregunta9" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        <img src="img/fondoxp.jpg" width="100">
+
+                    </label>            
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pregunta9" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        <img src="img/windows8.jpg" width="100">
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pregunta9" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        <img src="img/doremon.JPG" width="100">
+                    </label>            
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pregunta9" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        <img src="img/xpfeo.jpg" width="100">
+                    </label>
+                </div>
+                <hr>
+            </div>
+
+
+            <!--10º PREGUNTA-->
+
+            <div class="alert alert-warning" role="alert">
+                <div class="form-check">
+                    <p>10º pregunta: En POO; toda Clase debe tener: </p>
+                    <input class="form-check-input" type="radio" name="pregunta10" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Atributos y Herencia 
+
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta10" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Metodos y métodos pesados
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta10" id="exampleRadios1" value="option3">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Java y SQL
+                    </label>            
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta10" id="exampleRadios2" value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Atributos y Metodos
+                    </label>
+                </div>
+                <hr>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">CORREGIR</button>
+        </form>
+    </body>
+</html>

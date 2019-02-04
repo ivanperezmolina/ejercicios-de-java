@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Escribe una aplicación que genere el calendario de un mes. Se pedirá el
+nombre del mes, el año, el texto que queremos que aparezca sobre el
+calendario, el día de la semana en que cae el día 1 y el número de días que
+tiene el mes.
+-->
+<html>
+    <head>
+        <title>Ejercicio11</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <h1 class="text-center">Construye tu calendario</h1>
+
+        <br><br>
+
+        <form action="calendario.jsp" method="GET">
+            <div class="form-group">
+                <label for="numero">Nombre del mes:</label>
+                <input type="text"  class="form-control" name="nombreMes" class="form-control" id="nombreMes" placeholder="Nombre del mes">
+                <small id="emailHelp" class="form-text text-muted">Introduzca el nombre del mes para construir su calendario</small>
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Año:</label>
+                <input type="number" step="1" class="form-control" name="numeroAño" class="form-control" id="numeroAño" placeholder="Numero del año">
+                <small id="emailHelp" class="form-text text-muted">¿De que año quieres tu calendario?</small>
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Texto:</label>
+                <input type="text"  class="form-control" name="texto" class="form-control" id="texto" placeholder="Texto">
+                <small id="emailHelp" class="form-text text-muted">¿Quieres añadir a tu calendario una frase motivadora?</small>
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Dia de la semana que es 1:</label>
+                <input type="text"  class="form-control" name="nombreDia1" class="form-control" id="nombreDia1" placeholder="Nombre del dia de la semana que es 1">
+                <small id="emailHelp" class="form-text text-muted">En que día cae el 1 de tu mes</small>
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Días del mes:</label>
+                <input type="number" step="1" min="28" max="31" class="form-control" name="diasMes" class="form-control" id="diasMes" placeholder="Dias del mes">
+                <small id="emailHelp" class="form-text text-muted">¿Cuantos dias tiene tu mes?</small>
+            </div>
+            <br><br>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">GENERAR</button>
+            
+        </form>
+
+    </body>
+</html>

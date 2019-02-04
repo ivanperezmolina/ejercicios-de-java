@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Realiza una aplicación que pinte una pirámide. La altura se pedirá en un
+formulario. La pirámide estará hecha de bolitas, ladrillos o cualquier otra
+imagen.
+-->
+<html>
+    <head>
+        <title>Ejercicio 09</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="text-center">CONSTRUCTOR DE PIRÁMIDES</h1>
+                
+        <br><br>
+        
+                <form action="piramide.jsp" method="GET">
+            <div class="form-group">
+                <label for="altura">Altura:</label>
+                <input type="number" step="1" class="form-control" name="altura" class="form-control" id="altura" placeholder="Altura de la pirámide">
+                <small id="emailHelp" class="form-text text-muted">Introduzca la altura que quiere que tenga su pirámide</small>
+            </div>
+
+            <br><br>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">CALCULAR</button>
+        </form>
+    </body>
+</html>

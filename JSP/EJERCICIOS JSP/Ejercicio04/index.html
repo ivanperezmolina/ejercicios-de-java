@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1 class="text-center">Calcula la media del curso</h1>
+            <form action="media.jsp" method="GET">
+                <div class="form-group">
+                    <label for="nota1">Nota 1:</label>
+                    <input type="number" min="0" max="10" step="0.1" class="form-control" name="nota1" class="form-control" id="nota1" placeholder="Introduce la 1º nota">
+                    <small id="emailHelp" class="form-text text-muted">La nota de tu primera evaluación</small>
+
+                    <br><br>
+
+                    <label for="nota2">Nota 2:</label>
+                    <input type="number" min="0" max="10" step="0.1" class="form-control" name="nota2" class="form-control" id="nota2" placeholder="Introduce la 2º nota">
+                    <small id="emailHelp" class="form-text text-muted">La nota de tu segunda evaluación</small>
+
+                    <br><br>
+
+                    <label for="nota3">Nota 3:</label>
+                    <input type="number" min="0" max="10" step="0.1" class="form-control" name="nota3" class="form-control" id="nota3" placeholder="Introduce la 3º nota">
+                    <small id="emailHelp" class="form-text text-muted">La nota de tu tercera evaluación</small>
+                </div>
+                
+                 
+               <!-- <button type="submit" class="btn btn-primary" >Calcula la media</button>-->
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Calcula la media</button>
+            </form>
+
+        </div>
+    </body>
+</html>
